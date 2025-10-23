@@ -21,7 +21,7 @@ st.markdown("---")
 # 🔮 LLM via OpenRouter
 # ============================================================
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 
 
 def generate_llm_response(prompt: str, model: str = "openai/gpt-4o-mini") -> str:
